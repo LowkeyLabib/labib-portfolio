@@ -1,6 +1,6 @@
-# LABIB. — Personal Portfolio
+# LowkeyLabib — Personal Portfolio
 
-A responsive editorial portfolio for Labib Hasan, built with React, Vite, JavaScript, Tailwind CSS, React Router, and Lucide. Includes work, three concept case studies, about, services, contact, and a custom 404 page.
+A responsive portfolio for Labib Hasan, built with React, Vite, JavaScript, Tailwind CSS, React Router, and Lucide. Includes seven project pages, about, services, contact, and a custom 404 page.
 
 ## Local development
 
@@ -13,9 +13,9 @@ Production: `npm run build`. Preview the build: `npm run preview`.
 
 ## Configuration
 
-Edit `src/data/siteConfig.js` for identity, email, projects, live links, and optional social/repository URLs. Unconfigured GitHub links stay hidden. All projects are explicitly independent portfolio concepts.
+Edit `src/data/siteConfig.js` for identity, projects, and contact links. Set `siteConfig.linkedin` to a verified LinkedIn profile URL when available. The three website projects are independent concepts.
 
-Project visuals are labeled CSS illustrations. To use real screenshots, add `noir-desktop.webp`, `noir-mobile.webp`, `aura-desktop.webp`, `aura-mobile.webp`, `framework-desktop.webp`, and `framework-mobile.webp` to `public/projects/`, then rebuild. Available assets are detected at build time; missing or failed images use the illustrations.
+To replace a project's preview, put a real screenshot in `public/projects/` and set its `screenshot` to `{ src: '/projects/example.webp', alt: 'Describe the screen' }`. Add up to two additional screenshots in its `gallery` array using the same format. Empty slots and failed images show a placeholder.
 
 The contact form opens an encoded email draft using `mailto:`. Visitors must send it in their email app. No submissions are stored; there is no backend or environment configuration.
 
