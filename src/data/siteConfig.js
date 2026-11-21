@@ -28,6 +28,11 @@ export const contactProfiles = [
 export const softwareProjects = [
   {
     slug: 'psysim',
+    screenshot: { src: '/projects/psysim-1.png', alt: 'PsySim practice workspace' },
+    gallery: [
+      { src: '/projects/psysim-2.png', alt: 'PsySim case and difficulty selection' },
+      { src: '/projects/psysim-3.png', alt: 'PsySim interview with a simulated patient' },
+    ],
     name: 'PsySim',
     category: 'Clinical Education',
     description: 'AI-powered psychiatric patient simulation for practicing clinical interviews and diagnostic reasoning.',
@@ -39,6 +44,11 @@ export const softwareProjects = [
   },
   {
     slug: 'ironclad',
+    screenshot: { src: '/projects/ironclad-1.png', alt: 'IRONCLAD workout dashboard' },
+    gallery: [
+      { src: '/projects/ironclad-2.png', alt: 'IRONCLAD training routines and program library' },
+      { src: '/projects/ironclad-3.png', alt: 'IRONCLAD workout session and set logging' },
+    ],
     name: 'IRONCLAD',
     category: 'Fitness App',
     description: 'Android fitness tracking with preset and custom workout routines, weight logging, rest timers, and progress tracking.',
@@ -50,6 +60,11 @@ export const softwareProjects = [
   },
   {
     slug: 'lovegarden',
+    screenshot: { src: '/projects/lovegarden-1.png', alt: 'LoveGarden pixel-art garden at night' },
+    gallery: [
+      { src: '/projects/lovegarden-2.png', alt: 'LoveGarden decorations and fashion store' },
+      { src: '/projects/lovegarden-3.png', alt: 'LoveGarden in-game guide' },
+    ],
     name: 'LoveGarden',
     category: 'Interactive Game',
     description: 'An interactive pixel-art garden with planting, watering, character customization, fashion, gifts, and day/night cycles.',
@@ -59,6 +74,10 @@ export const softwareProjects = [
   },
   {
     slug: 'anubicide',
+    screenshot: { src: '/projects/anubicide-1.png', alt: 'Anubicide desktop control panel' },
+    gallery: [
+      { src: '/projects/anubicide-2.png', alt: 'Anubicide settings dialog' },
+    ],
     name: 'Anubicide',
     category: 'Desktop Automation',
     description: 'Desktop software with visual detection, configurable automation, and account and session management.',
@@ -71,6 +90,11 @@ export const softwareProjects = [
 export const projects = [
   {
     slug: 'noir', number: '01', name: 'NOIR', category: 'Fashion Ecommerce', year: '2026',
+    screenshot: { src: '/projects/noir-1.png', alt: 'NOIR streetwear storefront homepage' },
+    gallery: [
+      { src: '/projects/noir-2.png', alt: 'NOIR new arrivals product grid' },
+      { src: '/projects/noir-3.png', alt: 'NOIR Essential Oversized Tee product details' },
+    ],
     showcaseDescription: 'A modern ecommerce concept for a streetwear brand.',
     liveUrl: 'https://noir-ecommerce-showcase.vercel.app/', repositoryUrl: '',
     description: 'A premium streetwear ecommerce concept featuring bold editorial design, interactive product discovery, product variants, collection filtering, wishlist functionality, and a persistent shopping cart.',
@@ -83,6 +107,11 @@ export const projects = [
   },
   {
     slug: 'aura', number: '02', name: 'AURA', category: 'Beauty Ecommerce', year: '2026',
+    screenshot: { src: '/projects/aura-1.png', alt: 'AURA skincare storefront homepage' },
+    gallery: [
+      { src: '/projects/aura-2.png', alt: 'AURA cleanser collection and filters' },
+      { src: '/projects/aura-3.png', alt: 'AURA shopping bag and order summary' },
+    ],
     showcaseDescription: 'A minimal skincare brand concept with a product-led storefront.',
     liveUrl: 'https://aura-skincare-showcase.vercel.app/', repositoryUrl: '',
     description: 'An elegant skincare ecommerce concept with refined visual merchandising, product categories, search, filtering, sorting, variants, wishlist, and persistent cart functionality.',
@@ -95,6 +124,11 @@ export const projects = [
   },
   {
     slug: 'framework', number: '03', name: 'FRAMEWORK', category: 'Creative Studio Website', year: '2026',
+    screenshot: { src: '/projects/framework-1.png', alt: 'FRAMEWORK creative studio homepage' },
+    gallery: [
+      { src: '/projects/framework-2.png', alt: 'FRAMEWORK studio inquiry form' },
+      { src: '/projects/framework-3.png', alt: 'FRAMEWORK film and production services' },
+    ],
     showcaseDescription: 'A creative agency concept with an editorial approach to showcasing studio work.',
     liveUrl: 'https://framework-creative-studio.vercel.app/', repositoryUrl: '',
     description: 'A cinematic creative agency concept showcasing brand strategy, creative direction, film production, photography, and campaign services through editorial layouts and dynamic case studies.',

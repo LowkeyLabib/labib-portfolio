@@ -68,7 +68,10 @@ export function ZeroGhee() {
     <div className="team-panel" data-reveal>
       <div>
         <p className="portfolio-label">Independent development team</p>
-        <h3>ZeroGhee</h3>
+        <div className="flex items-center gap-3">
+          <img className="rounded-lg" src="/projects/zeroghee-logo.png" alt="" width={80} height={80} loading="lazy" />
+          <h3>ZeroGhee</h3>
+        </div>
         <Link className="text-link portfolio-section-link" to={projectPath(psySim)}>Collaborative project: PsySim</Link>
       </div>
       <dl>
